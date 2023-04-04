@@ -1,4 +1,4 @@
-package web.model;
+package com.first.model;
 
 import javax.persistence.*;
 
@@ -24,6 +24,7 @@ public class User {
     public void setId(Long id) {
         this.id = id;
     }
+
 
     public User(String name, String lastname, byte age, String city) {
         this.name = name;

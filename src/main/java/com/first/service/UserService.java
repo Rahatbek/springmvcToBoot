@@ -1,6 +1,6 @@
-package web.service;
+package com.first.service;
 
-import web.model.User;
+import com.first.model.User;
 
 import java.util.List;
 
